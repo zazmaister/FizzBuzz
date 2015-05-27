@@ -1,0 +1,26 @@
+{
+  "name": "fizzbuzz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zazmaister/FizzBuzz.git"
+  },
+  "author": "Andraž",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zazmaister/FizzBuzz/issues"
+  },
+  "homepage": "https://github.com/zazmaister/FizzBuzz#readme",
+  "dependencies": {
+    "gulp": "^3.8.11",
+    "gulp-concat": "^2.5.2",
+    "gulp-flatten": "0.0.4",
+    "gulp-notify": "^2.2.0",
+    "gulp-webserver": "^0.9.1"
+  }
+}

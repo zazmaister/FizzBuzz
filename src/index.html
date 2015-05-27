@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="UTF-8">
+  <script src="js/angular.min.js"></script>
+  	
+  	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+	<script type="text/javascript" src="js/all.js"></script>
+</head>
+<body ng-app="FizzBuzz">
+  
+  <div class="container" ng-controller="FizzBuzzController">
+    <div class="row">
+      <div class="col-md-4">
+        <form name="AppForm">
+          <div class="form-group">
+            <label for="number">Number:</label>
+            <input class="form-control"name="number" ng-model="number" id="number" ng-required="true"/>
+            <span ng-repeat="fizzbuzz in fizzbuzzes track by $index">{{fizzbuzz}},</span>
+        </form>
+      </div>
+      
+
+    </div>
+  </div>
+  
+</body>
+</html>

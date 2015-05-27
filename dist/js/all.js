@@ -1,5 +1,4 @@
 angular.module("FizzBuzz",[]);
-
 angular.module("FizzBuzz").controller("FizzBuzzController",function($scope, FizzBuzzFactory){
 
 	$scope.model = FizzBuzzFactory;
